@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from database import create_table
-from models import add_expense, view_expenses, get_total_by_category
+from models import add_expense, view_expenses, get_total_by_category, clear_all_expenses
 from utils import get_current_date
 
 app = Flask(__name__)
